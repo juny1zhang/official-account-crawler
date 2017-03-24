@@ -26,7 +26,7 @@ class officialAccount:
 
         web.header('Content-Type', 'text/json; charset=utf-8', unique=True)
 
-        driver = webdriver.PhantomJS(executable_path='/Users/ashun/Downloads/phantomjs-2.1.1-macosx/bin/phantomjs')
+        driver = webdriver.PhantomJS(executable_path='/Users/e/Desktop/phantomjs-2.1.1-macosx/bin/phantomjs')
 
         driver.get('http://www.newrank.cn/public/info/detail.html?account=' + i.id)
 
